@@ -13,7 +13,7 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/alpha/config/common_full_phone.mk)
 
-PRODUCT_NAME :alpha_earth
+PRODUCT_NAME := alpha_earth
 PRODUCT_DEVICE := earth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
